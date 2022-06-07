@@ -6,8 +6,8 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "bundle.js",
-    publicPath: "./",
+    filename: "platz-practical-ract/bundle.js",
+    publicPath: "/platz-practical-ract/",
   },
   mode: "development",
   resolve: {
